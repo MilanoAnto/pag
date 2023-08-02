@@ -139,21 +139,21 @@ a {
     text-decoration: none;
     transition: all 0.3s ease; 
 }
-a:hover { color:#009999; }
+a:hover { color:#6d49f0; }
 .container-fluid { max-width: 1770px; }
 .tm-container-small { max-width: 1050px; }
 .btn { border-radius: 0; }
 .btn-primary {
-    background-color: #009999;
+    background-color: #18af52;
     border: 0;
-    border-radius: 5px;
-    padding: 12px 50px 14px;
+    border-radius: 35px; /*borde mas redondeado*/
+    padding: 12px 65px 14px; /*espacio arriba, a los costados, y abajo del texto*/
     font-size: 1.2rem;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color:#086969;
+    background-color:#0d7e38;
 }
 
 .btn-primary.disabled, 
@@ -252,7 +252,7 @@ a.tm-text-primary:hover { color:#666666; }
     color: #009999;
 }
 
-.tm-search-btn {
+.tm-search-btn /*boton de busqueda*/{
     color: white;
     background-color: #009999;
     border: none;
@@ -346,7 +346,7 @@ p, .tm-text-gray { color: #999; }
     width: 60px;
     height: 60px;
     font-size: 1.1rem;
-    color: #999;
+    color: #18af52;
     background-color: #EEEEEE;
     margin: 10px;
     border-radius: 5px;
@@ -356,13 +356,9 @@ p, .tm-text-gray { color: #999; }
 
 .tm-paging-link:hover,
 .tm-paging-link.active {
-    background-color: #009999;
+    background-color: #18af52;
     color: #fff; 
 }
-
-/*---------------*/
-/***** Ming *****/
-/*---------------*/
 
 figure.effect-ming {
 	background: #030c17;
@@ -629,6 +625,7 @@ section
 section img{
     width: 0px;
     flex-grow: 1;
+    /*object-fit: cover; /*que la img ocupe buen espacio*/
     opacity: .8;
     transition: .5 ease;
 }
