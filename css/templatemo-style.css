@@ -153,7 +153,7 @@ a:hover { color:#6d49f0; }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color:#0d7e38;
+    background-color:red;
 }
 
 .btn-primary.disabled, 
