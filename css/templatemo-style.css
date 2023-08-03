@@ -150,6 +150,9 @@ a:hover { color:#6d49f0; }
     padding: 12px 65px 14px; /*espacio arriba, a los costados, y abajo del texto*/
     font-size: 1.2rem;
 }
+.btn-primary:hover {
+    color: #6d49f0;
+}
 
 .btn-primary:hover,
 .btn-primary:focus {
