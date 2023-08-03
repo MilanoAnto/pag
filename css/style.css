@@ -160,7 +160,7 @@ a:hover { color:#6d49f0; }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color:red;
+    background-color:#18af52;
 }
 
 .btn-primary.disabled, 
@@ -621,10 +621,8 @@ select:not([multiple]) {
     .tm-social-links li { margin-right: 3px; }
 }
 
-
 /*Imagenes que se mueven*/
-section
-{
+section{
     display: flex;
     width: 1000px;
     height: 250px;
