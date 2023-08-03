@@ -150,8 +150,12 @@ a:hover { color:#6d49f0; }
     padding: 12px 65px 14px; /*espacio arriba, a los costados, y abajo del texto*/
     font-size: 1.2rem;
 }
-.btn-primary:hover {
-    color: #6d49f0;
+.btn-primary {
+    background-color: #18af52;
+    border: 0;
+    border-radius: 35px; /*borde mas redondeado*/
+    padding: 12px 65px 14px; /*espacio arriba, a los costados, y abajo del texto*/
+    font-size: 1.2rem;
 }
 
 .btn-primary:hover,
