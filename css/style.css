@@ -1,5 +1,3 @@
-/*TemplateMo 556 Catalog-Z https://templatemo.com/tm-556-catalog-z*/
-
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -140,7 +138,8 @@ a {
     transition: all 0.3s ease; 
 }
 a:hover { color:#6d49f0; }
-.container-fluid { max-width: 1770px; }
+.container-fluid { max-width: 1770px;}
+.container-fluid-in { max-width: 1770px; background-color:  #76df5b;}
 .tm-container-small { max-width: 1050px; }
 .btn { border-radius: 0; }
 .btn-primary {
@@ -196,7 +195,7 @@ a:hover { color:#6d49f0; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
 .tm-mb-90 { margin-bottom: 90px; }
-.tm-text-primary { color: #009999; }
+.tm-text-primary { color: #000000; }
 .tm-text-secondary { color: #CC6699; }
 a.tm-text-primary:hover { color:#666666; }
 .tm-bg-gray { background-color: #EEEEEE; }
