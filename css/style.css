@@ -635,8 +635,27 @@ section img{
 }
 section img:hover{
     cursor: crosshair;
-    width: 250px;
+    width: 150px;
     height: 50;
     opacity: 1;
     filter: contrast(120%)
 }
+
+  .contenedor-columnas
+  {
+    max-width:1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding:50px;
+  }
+  .columnas
+  {
+    column-count: 2; /* número de columnas */
+    column-gap: 00px; /* ancho de columnas */
+    /*column-rule: 5px outset #999999;  separación de columnas */
+    
+  }
+
+  p{
+    color: #000000;
+  }
