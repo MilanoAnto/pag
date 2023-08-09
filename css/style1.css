@@ -137,13 +137,13 @@ a {
     text-decoration: none;
     transition: all 0.3s ease; 
 }
-a:hover { color:#6d49f0; }
+a:hover { color:#000000; }
 .container-fluid { max-width: 1770px;}
-.container-fluid-in { max-width: 1770px; background-color:  #76df5b;}
+.container-fluid-in { max-width: 1770px; background-color:  #e4af4d;}
 .tm-container-small { max-width: 1050px; }
 .btn { border-radius: 0; }
 .btn-primary {
-    background-color: #18af52;
+    background-color: #38e49c;
     border: 0;
     border-radius: 35px; /*borde mas redondeado*/
     padding: 12px 65px 14px; /*espacio arriba, a los costados, y abajo del texto*/
@@ -180,7 +180,7 @@ a:hover { color:#6d49f0; }
 
 .navbar-toggler:focus { box-shadow: none; }
 .navbar-brand {
-    color: #3399CC;
+    color: #000000;
     font-size: 1.6rem;
 }
 
@@ -634,7 +634,7 @@ section img{
     transition: .5 ease;
 }
 section img:hover{
-    cursor: crosshair;
+    /*cursor: crosshair;*/
     width: 150px;
     height: 50;
     opacity: 1;
