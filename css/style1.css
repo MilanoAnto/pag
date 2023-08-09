@@ -362,11 +362,11 @@ p, .tm-text-gray { color: #999; }
 
 .tm-paging-link:hover
 {
-    background-color: #e4af4d;
+    background-color: #ecc883;
     color: #fff; 
 }
 .tm-paging-link.active {
-    background-color: #c2943f;
+    background-color: #e4af4d;
     color: #fff; 
 }
 
