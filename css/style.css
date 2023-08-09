@@ -641,6 +641,7 @@ section img:hover{
     filter: contrast(120%)
 }
 
+
   .contenedor-columnas
   {
     max-width:1000px;
@@ -653,9 +654,8 @@ section img:hover{
     column-count: 2; /* número de columnas */
     column-gap: 00px; /* ancho de columnas */
     /*column-rule: 5px outset #999999;  separación de columnas */
-    
   }
-
-  p{
+  p
+  {
     color: #000000;
   }
