@@ -211,7 +211,7 @@ a.tm-text-primary:hover { color:#666666; }
 .nav-item:last-child { margin-right: 0; }
 
 .nav-link {
-    color: white;
+    color: #e4af4d;
     border-bottom: 2px solid transparent;
     font-size: 1.2rem;
 }
