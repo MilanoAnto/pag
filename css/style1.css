@@ -211,8 +211,8 @@ a.tm-text-primary:hover { color:#666666; }
 .nav-item:last-child { margin-right: 0; }
 
 .nav-link {
-    color: #e4af4d;
-    border-bottom: 2px solid transparent;
+    color: white;
+    border-bottom: 1px solid transparent;
     font-size: 1.2rem;
 }
 
@@ -223,16 +223,6 @@ a.tm-text-primary:hover { color:#666666; }
 
 .nav-link-2.active,
 .nav-link-2:hover {
-    border-color: #CC66CC;
-}
-
-.nav-link-3.active,
-.nav-link-3:hover {
-    border-color: #CC66CC;
-}
-
-.nav-link-4.active,
-.nav-link-4:hover {
     border-color: #CC66CC;
 }
 
@@ -352,7 +342,7 @@ p, .tm-text-gray { color: #999; }
     width: 60px;
     height: 60px;
     font-size: 1.1rem;
-    color: #e4af4d;
+    color: white;
     background-color: #EEEEEE;
     margin: 10px;
     border-radius: 5px;
@@ -571,14 +561,14 @@ select:not([multiple]) {
     opacity: 1; /* Firefox */
 }
 
-@media (max-width: 991px) {
+@media (max-width: 900px) {
     .navbar-collapse {
         position: fixed;
         top: 30px;
         right: 0px;
         background: #e4af4d;
         width: 185px;
-        padding: 15px;
+        padding: 12px;
     }
 
     .tm-container-content { max-width: 870px; }
