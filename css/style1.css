@@ -211,8 +211,8 @@ a.tm-text-primary:hover { color:#666666; }
 .nav-item:last-child { margin-right: 0; }
 
 .nav-link {
-    color: #666666;
-    border-bottom: 4px solid transparent;
+    color: white;
+    border-bottom: 2px solid transparent;
     font-size: 1.2rem;
 }
 
@@ -574,10 +574,10 @@ select:not([multiple]) {
 @media (max-width: 991px) {
     .navbar-collapse {
         position: fixed;
-        top: 50px;
+        top: 30px;
         right: 0px;
-        background: white;
-        width: 150px;
+        background: #e4af4d;
+        width: 185px;
         padding: 15px;
     }
 
