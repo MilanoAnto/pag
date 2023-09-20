@@ -568,6 +568,23 @@ select:not([multiple]) {
         right: 0px;
         background: #e4af4d;
         width: 185px;
+        height: 100px;
+        padding: 12px;
+    }
+
+    .tm-container-content { max-width: 870px; }
+    .tm-contact-form, .tm-address-col, .mapouter { max-width: 100%; }
+    .tm-people-row { max-width: 900px; }
+}
+
+@media (max-width: 900px) {
+    .navbar-collapsein {
+        position: fixed;
+        top: 30px;
+        right: 0px;
+        background: #e4af4d;
+        width: 185px;
+        height: 230px;
         padding: 12px;
     }
 
