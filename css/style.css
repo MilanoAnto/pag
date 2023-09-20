@@ -221,10 +221,6 @@ a.tm-text-primary:hover { color:#666666; }
     border-color: #CC66CC;
 }
 
-.nav-link-2.active,
-.nav-link-2:hover {
-    border-color: #CC66CC;
-}
 
 .tm-search-input {
     width: 360px;
@@ -571,7 +567,7 @@ select:not([multiple]) {
         height: 100px;
         padding: 12px;
     }
-    
+
     .navbar-collapsein {
         position: fixed;
         top: 30px;
