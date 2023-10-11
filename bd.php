@@ -16,7 +16,7 @@ $mail = $_POST['mail'];
 $usuario = $_POST['usuario'];
 $contraseña = $_POST['contraseña'];
 
-$sql = "INSERT INTO usuarios (nombre, apellido, mail, usuario, contraseña) VALUES ('$nombre', '$apellido', '$mail', '$usuario', '$contraseña')";
+$sql = "INSERT INTO usuarios (nombre, apellido, mail, usuario, contraseña) VALUES ('$usuario', '$nombre', '$apellido', '$mail',  '$contraseña')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Registro exitoso";
