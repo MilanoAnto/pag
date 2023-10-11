@@ -10,11 +10,14 @@
 <body>
     <section class="form-login">
         <h5>Registrarse</h5>
-        <input class="controls" type="text" name="nombre" value="" placeholder="Nombre">
-        <input class="controls" type="text" name="apellido" value="" placeholder="Apellido">
-        <input class="controls" type="text" name="mail" value="" placeholder="Correo">
-        <input class="controls" type="password" name="contraseña" value="" placeholder="Contraseña">
-        <input class="buttons" type="submit" name="" value="Registrarse">
+        <form action="bd.php" method="post">
+            <input class="controls" type="text" name="nombre" placeholder="Nombre" required><br>
+            <input class="controls" type="text" name="apellido" placeholder="Apellido" required><br>
+            <input class="controls" type="email" name="mail" placeholder="Correo" required><br>
+            <input class="controls" type="text" name="usuario" placeholder="Usuario" required><br>
+            <input class="controls" type="password" name="contraseña" placeholder="Contraseña" required><br>
+            <input class="buttons" type="submit" name="" value="Registrarse">
+        </form>
         <p>¿Ya tiene sesion?<a href="login.html">&nbsp;Iniciar sesion</a></p>
         <center><a href="index.html">Volver a la página principal</a></center>
     </section>
