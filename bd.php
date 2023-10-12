@@ -1,14 +1,14 @@
 <?php
+
+error_reporting(E_ERROR);
+ini_set('display_errors', 1);
+
 $servername = "localhost"; 
 $username = "anto";
 $password = "Lara1983-";
 $database = "pag";
 
 $conn = new mysqli($servername, $username, $password, $database);
-
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
 
 $nombre = $_POST['nombre'];
 $apellido = $_POST['apellido'];
