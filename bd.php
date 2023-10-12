@@ -1,8 +1,5 @@
 <?php
 
-error_reporting(E_ERROR);
-ini_set('display_errors', 1);
-
 $servername = "localhost"; 
 $username = "anto";
 $password = "Lara1983-";
@@ -18,7 +15,7 @@ $contraseña = $_POST['contraseña'];
 
 $sql = "INSERT INTO Usuarios (nombre, apellido, mail, usuario, contraseña) VALUES ('$usuario', '$nombre', '$apellido', '$mail',  '$contraseña')";
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($sql)) {
     echo "Registro exitoso";
 } else {
     echo "Error al registrar: " . $conn->error;
