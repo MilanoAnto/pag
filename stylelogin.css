@@ -74,11 +74,3 @@ a{
         width: 100%;
     }
 }
-
-/* Estilos para pantallas más grandes */
-@media screen and (min-width: 769px) {
-    .form-login {
-        width: 30%;
-        margin: 0 auto;
-    }
-}
