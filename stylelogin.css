@@ -58,3 +58,27 @@ a{
 .form-login a:hover {
     text-decoration: underline;
 }
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .form-login {
+        width: 80%;
+        margin:auto;
+        margin-top: 150px;
+    }
+    .controls {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .buttons {
+        width: 100%;
+    }
+}
+
+/* Estilos para pantallas más grandes */
+@media screen and (min-width: 769px) {
+    .form-login {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
