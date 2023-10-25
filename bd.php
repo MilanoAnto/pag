@@ -22,7 +22,7 @@ $usuario = $_POST['usuario'];
 $contraseña = $_POST['contraseña'];
 
 // Utilizar una sentencia preparada para proteger contra inyecciones de SQL
-$stmt = $conn->prepare("INSERT INTO Usuarios (nombre, apellido, mail, usuario, contraseña) VALUES (?, ?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO Usuarios (nombre, apellido, mail, usuario, contraseña) VALUES (nombre, apellido, mail, usuario, contraseña)");
 $stmt->bind_param("sssss", $nombre, $apellido, $mail, $usuario, $contraseña);
 
 if ($stmt->execute()) {
