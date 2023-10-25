@@ -641,15 +641,16 @@ section img:hover{
     filter: contrast(120%)
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
     #carouselExampleControls{
         display: none;
     }
 }
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 501px) {
     #imagenes{
         display: none;
     }
+
 }
 
   .contenedor-columnas
