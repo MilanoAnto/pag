@@ -641,7 +641,7 @@ section img:hover{
     filter: contrast(120%)
 }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 400px) {
     #carouselExampleControls{
         display: none;
     }
