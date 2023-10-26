@@ -661,6 +661,17 @@ section img:hover{
     }
 }
 
+@media only screen and (min-height: 800px) {
+    #carouselExampleControls{
+        display: none;
+    }
+}
+@media only screen and (max-height: 801px) {
+    #imagenes{
+        display: none;
+    }
+}
+
 
 .data{
     margin: 10px;
