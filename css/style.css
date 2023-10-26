@@ -641,23 +641,23 @@ section img:hover{
     filter: contrast(120%)
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 600px) {
     #carouselExampleControls{
         display: none;
     }
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 601px) {
     #imagenes{
         display: none;
     }
 }
 
-@media only screen and (min-height: 1000px) {
+@media only screen and (min-height: 900px) {
     #carouselExampleControls{
         display: none;
     }
 }
-@media only screen and (max-height: 1001px) {
+@media only screen and (max-height: 901px) {
     #imagenes{
         display: none;
     }
