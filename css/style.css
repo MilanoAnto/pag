@@ -666,7 +666,7 @@ section img:hover{
         display: none;
     }
 }
-@media only screen and (max-height: 950px) {
+@media only screen and (max-height: 1050px) {
     #imagenes{
         display: none;
     }
