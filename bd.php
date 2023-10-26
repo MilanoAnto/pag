@@ -1,13 +1,12 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-$servername = "18.118.253.245/pag/";
+$servername = "18.118.253.245";
 $username = "anto";
 $password = "Lara1983-";
 $database = "pag";
 
 $conn = new mysqli($servername, $username, $password, $database);
-
 if ($conn->connect_error) {
     // Registrar el error en un archivo de registro
     die("Conexión fallida: " . $conn->connect_error);
