@@ -567,6 +567,15 @@ select:not([multiple]) {
         height: 70px;
         padding: 12px;
     }
+    .navbar-collapse-al {
+        position: fixed;
+        top: 30px;
+        right: 0px;
+        background: #e4af4d;
+        width: 185px;
+        height: 110px;
+        padding: 12px;
+    }
 
     .navbar-collapsein {
         position: fixed;
@@ -574,7 +583,7 @@ select:not([multiple]) {
         right: 0px;
         background: #e4af4d;
         width: 185px;
-        height: 200px;
+        height: 160px;
         padding: 12px;
     }
 
