@@ -652,12 +652,12 @@ section img:hover{
     }
 }
 
-@media only screen and (min-height: 900px) {
+@media only screen and (min-height: 1000px) {
     #carouselExampleControls{
         display: none;
     }
 }
-@media only screen and (max-height: 901px) {
+@media only screen and (max-height: 1001px) {
     #imagenes{
         display: none;
     }
