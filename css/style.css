@@ -564,7 +564,7 @@ select:not([multiple]) {
         right: 0px;
         background: #e4af4d;
         width: 185px;
-        height: 100px;
+        height: 70px;
         padding: 12px;
     }
 
@@ -574,7 +574,7 @@ select:not([multiple]) {
         right: 0px;
         background: #e4af4d;
         width: 185px;
-        height: 230px;
+        height: 200px;
         padding: 12px;
     }
 
