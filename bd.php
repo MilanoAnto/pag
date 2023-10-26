@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-$servername = "localhost";
+$servername = "18.118.253.245/pag/";
 $username = "anto";
 $password = "Lara1983-";
 $database = "pag";
